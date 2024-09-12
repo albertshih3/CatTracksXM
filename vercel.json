@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/index.js", // Entry point
+        "use": "@vercel/node"  // Node.js runtime
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)", // Match all paths
+        "dest": "api/index.js" // Route to your Express app
+      }
+    ]
+  }

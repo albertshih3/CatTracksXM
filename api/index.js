@@ -1,8 +1,8 @@
 // index.js
 const express = require('express');
-const cattracks = require('./cattracks.js');
-const cattracksfull = require('./cattracksfull.js');
-const cattracks_route = require('./cattracks_route.js');
+const cattracks = require('../cattracks.js');
+const cattracksfull = require('../cattracksfull.js');
+const cattracks_route = require('../cattracks_route.js');
 const routeplanner = require('./routeplanner.js');
 
 // instantiate the express server
